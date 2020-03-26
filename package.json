@@ -12,10 +12,11 @@
 	},
 	"dependencies": {
 		"cheerio": "^0.18.0",
-		"steam-user": "^3.3.0",
-		"steam-client": "^1.1.1",
 		"prompt": "^0.2.14",
-		"request": "^2.51.0"
+		"request": "^2.51.0",
+		"steam": "^1.4.1",
+		"steam-client": "^1.1.1",
+		"steam-user": "^3.3.0"
 	},
 	"license": "MIT"
 }
