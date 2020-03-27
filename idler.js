@@ -4,10 +4,9 @@ var SteamUser = require('steam-user');
 let accountName = process.argv[2];
 let password = process.argv[3];
 
-console.log("Predefined:");
-console.log("Username: "+accountName);
-console.log("Password: "+password);
-
+console.log("Detected Username: "+accountName);
+console.log("Detected Password: "+password.replace(/./g, '*'));
+console.log("Please enter your Steam Guard code now....")
 
 let client = new SteamUser();
 
