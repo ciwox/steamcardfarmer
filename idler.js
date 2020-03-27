@@ -1,5 +1,5 @@
-var Steam 				= require('steam');
-var SteamUser 			= require('steam-user');
+var Steam = require('steam');
+var SteamUser = require('steam-user');
 
 let accountName = process.argv[2];
 let password = process.argv[3];
